@@ -43,4 +43,7 @@ CREATE TABLE IF NOT EXISTS Order_Details (
     quantity DOUBLE NOT NULL,
     FOREIGN KEY (order_id) REFERENCES Orders(order_id),
     FOREIGN KEY (book_id) REFERENCES Books(book_id)
-);
+);git add task_3.sql
+git commit -m "Add task_3.sql to list all tables"
+git push
+
