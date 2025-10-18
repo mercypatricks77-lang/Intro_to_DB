@@ -2,3 +2,4 @@ SHOW TABLES;
 git add task_3.sql
 git commit -m "Add task_3.sql to list tables in alx_book_store"
 git push
+mysql -u root -p alx_book_store < task_3.sql
