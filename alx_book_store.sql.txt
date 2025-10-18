@@ -1,0 +1,1 @@
+Add SQL schema for online bookstore
