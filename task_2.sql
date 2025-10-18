@@ -37,9 +37,3 @@ CREATE TABLE IF NOT EXISTS ORDER_DETAILS (
     FOREIGN KEY (ORDER_ID) REFERENCES ORDERS(ORDER_ID),
     FOREIGN KEY (BOOK_ID) REFERENCES BOOKS(BOOK_ID)
 );
-
-git add task_2.sql
-git commit -m "Fix: Correct SQL table definitions for task 2"
-git push
-Re-upload correct task_2.sql with table definitions
-
