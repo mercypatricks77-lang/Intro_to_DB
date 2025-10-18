@@ -1,5 +1,9 @@
 USE alx_book_store;
 USE alx_book_store;
+git add task_2.sql
+git commit -m "Fix task_2.sql: create all required tables"
+git push
+
 
 CREATE TABLE IF NOT EXISTS AUTHORS (
     AUTHOR_ID INT AUTO_INCREMENT PRIMARY KEY,
